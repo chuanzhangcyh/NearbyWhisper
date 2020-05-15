@@ -22,8 +22,8 @@ from tipoff.views import get_tipoff  # 获取举报信息
 
 urlpatterns = [
     #path('admin/', admin.site.urls),
-    path('nearby/V1.0.0/login/', login_by_code),
-    path('nearby/V1.0.0/post/', get_info),
-    path('nearby/V1.0.0/infos/', infos),
-    path('nearby/V1.0.0/tipoff/', get_tipoff)
+    path('V1.0.0/login/', login_by_code),
+    path('V1.0.0/post/', get_info),
+    path('V1.0.0/infos/', infos),
+    path('V1.0.0/tipoff/', get_tipoff)
 ]
